@@ -1,0 +1,6 @@
+Unnamed: 0,seller,price,abtest,vehicleType,yearOfRegistration,gearbox,powerPS,model,kilometer,fuelType,brand,notRepairedDamage,predicated_price
+3,privat,1500,test,kleinwagen,2001,manuell,75,golf,150000,benzin,volkswagen,nein,"$2,137"
+4,privat,3600,test,kleinwagen,2008,manuell,69,fabia,90000,diesel,skoda,nein,"$4,939"
+5,privat,650,test,limousine,1995,manuell,102,3er,150000,benzin,bmw,ja,$812
+6,privat,2200,test,cabrio,2004,manuell,109,2_reihe,150000,benzin,peugeot,nein,"$2,654"
+10,privat,2000,control,limousine,2004,manuell,105,3_reihe,150000,benzin,mazda,nein,"$3,051"
