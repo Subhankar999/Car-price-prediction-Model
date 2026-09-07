@@ -1,6 +1,6 @@
-**#**  **Used Car Price Prediction Model**
+**#  Used Car Price Prediction Model**
 
-## 📌 **Project Overview**
+## 📌 Project Overview
 
 Used Car Price Prediction is a Machine Learning web application that predicts the estimated price of a used car based on features such as seller type, vehicle type, registration year, power, kilometers driven, gearbox, fuel type, brand, model, and repair history.
 
