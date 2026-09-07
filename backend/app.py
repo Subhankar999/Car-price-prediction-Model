@@ -1,6 +1,7 @@
-from fastapi import FastAPI,HTTPException, UploadFile,File
+from fastapi import FastAPI, HTTPException, UploadFile, File
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
+from fastapi.middleware.cors import CORSMiddleware
 import joblib
 import io
 import pandas as pd
@@ -8,19 +9,16 @@ import torch
 import torch.nn as nn
 import numpy as np
 
-from fastapi import FastAPI, HTTPException, UploadFile, File
-from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
