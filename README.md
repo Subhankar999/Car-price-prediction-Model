@@ -1,4 +1,4 @@
-**Used Car Price Prediction Model**
+<h1>Used Car Price Prediction</h1>
 
 ## 📌 Project Overview
 
