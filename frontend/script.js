@@ -41,7 +41,7 @@ function resetGauge() {
 
     readoutValue.classList.remove("is-set");
 
-    readoutValue.textContent = "₹ —";
+    readoutValue.textContent = "€ —";
 
     readoutLabel.textContent = "Estimated value";
 }
