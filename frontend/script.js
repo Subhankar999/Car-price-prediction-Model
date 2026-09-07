@@ -149,7 +149,7 @@ form.addEventListener("submit", async function (event) {
 
 
         readoutValue.textContent =
-            "₹ " + prediction.toLocaleString("en-IN");
+            "€ " + prediction.toLocaleString("en-IN");
 
 
         readoutValue.classList.add("is-set");
